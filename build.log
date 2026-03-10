@@ -1,0 +1,62 @@
+ΓÜá [1833/1987] Replayed PhysLean.Mechanics.Kinematics
+warning: PhysLean/Mechanics/Kinematics.lean:8:4: declaration uses `sorry`
+warning: PhysLean/Mechanics/Kinematics.lean:19:8: declaration uses `sorry`
+warning: PhysLean/Mechanics/Kinematics.lean:19:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+ΓÜá [1834/1987] Replayed PhysLean.Mechanics.Dynamics
+warning: PhysLean/Mechanics/Dynamics.lean:23:3: error: doc-strings should start with a single space or newline
+
+Note: This linter can be disabled with `set_option linter.style.docString false`
+warning: PhysLean/Mechanics/Dynamics.lean:28:26: remove line break in the source
+
+This part of the code
+  'newtons_first_law 
+  (m'
+should be written as
+  'newtons_first_law (m :'
+
+
+Note: This linter can be disabled with `set_option linter.style.whitespace false`
+ΓÜá [1835/1987] Replayed PhysLean.Aerospace.Aerodynamics
+warning: PhysLean/Aerospace/Aerodynamics.lean:11:69: unused variable `h_S`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PhysLean/Aerospace/Aerodynamics.lean:15:69: unused variable `h_S`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+ΓÜá [1984/1987] Replayed PhysLean.Aerospace.Rocket
+warning: PhysLean/Aerospace/Rocket.lean:15:75: unused variable `h_m0`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PhysLean/Aerospace/Rocket.lean:15:91: unused variable `h_mf`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PhysLean/Aerospace/Rocket.lean:15:107: unused variable `h_mass`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PhysLean/Aerospace/Rocket.lean:14:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PhysLean/Aerospace/Rocket.lean:15:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+warning: PhysLean/Aerospace/Rocket.lean:18:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+Γ£û [1985/1987] Building PhysLean.Aerospace.Orbital (6.9s)
+trace: .> LEAN_PATH=C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Cli\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\batteries\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Qq\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\aesop\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\proofwidgets\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\importGraph\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\LeanSearchClient\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\plausible\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\mathlib\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean c:\Users\krish\.elan\toolchains\leanprover--lean4---v4.28.0\bin\lean.exe C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\PhysLean\Aerospace\Orbital.lean -o C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Aerospace\Orbital.olean -i C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Aerospace\Orbital.ilean -c C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Aerospace\Orbital.c --setup C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Aerospace\Orbital.setup.json --json
+warning: PhysLean/Aerospace/Orbital.lean:21:78: unused variable `h_r`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PhysLean/Aerospace/Orbital.lean:19:53: error: doc-strings should end with a single space or newline
+
+Note: This linter can be disabled with `set_option linter.style.docString false`
+warning: PhysLean/Aerospace/Orbital.lean:21:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+error: PhysLean/Aerospace/Orbital.lean:26:7: Unknown constant `Real.pi`
+error: Lean exited with code 1
+Some required targets logged failures:
+- PhysLean.Aerospace.Orbital
+error: build failed

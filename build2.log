@@ -1,0 +1,45 @@
+ΓÜá [1833/1987] Replayed PhysLean.Mechanics.Kinematics
+warning: PhysLean/Mechanics/Kinematics.lean:8:4: declaration uses `sorry`
+warning: PhysLean/Mechanics/Kinematics.lean:19:8: declaration uses `sorry`
+warning: PhysLean/Mechanics/Kinematics.lean:19:100: This line exceeds the 100 character limit, please shorten it!
+
+Note: This linter can be disabled with `set_option linter.style.longLine false`
+ΓÜá [1834/1987] Replayed PhysLean.Aerospace.Aerodynamics
+warning: PhysLean/Aerospace/Aerodynamics.lean:11:69: unused variable `h_S`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: PhysLean/Aerospace/Aerodynamics.lean:15:69: unused variable `h_S`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Γ£û [1983/1987] Building PhysLean.Aerospace.Rocket (10s)
+trace: .> LEAN_PATH=C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Cli\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\batteries\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Qq\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\aesop\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\proofwidgets\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\importGraph\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\LeanSearchClient\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\plausible\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\mathlib\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean c:\Users\krish\.elan\toolchains\leanprover--lean4---v4.28.0\bin\lean.exe C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\PhysLean\Aerospace\Rocket.lean -o C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Aerospace\Rocket.olean -i C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Aerospace\Rocket.ilean -c C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Aerospace\Rocket.c --setup C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Aerospace\Rocket.setup.json --json
+error: PhysLean/Aerospace/Rocket.lean:18:4: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instDivInvMonoid', which is 'noncomputable'
+warning: PhysLean/Aerospace/Rocket.lean:21:3: error: doc-strings should start with a single space or newline
+
+Note: This linter can be disabled with `set_option linter.style.docString false`
+warning: PhysLean/Aerospace/Rocket.lean:28:54: unused variable `h_mdot`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+error: Lean exited with code 1
+Γ£û [1984/1987] Building PhysLean.Aerospace.Orbital (10s)
+trace: .> LEAN_PATH=C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Cli\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\batteries\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Qq\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\aesop\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\proofwidgets\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\importGraph\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\LeanSearchClient\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\plausible\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\mathlib\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean c:\Users\krish\.elan\toolchains\leanprover--lean4---v4.28.0\bin\lean.exe C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\PhysLean\Aerospace\Orbital.lean -o C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Aerospace\Orbital.olean -i C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Aerospace\Orbital.ilean -c C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Aerospace\Orbital.c --setup C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Aerospace\Orbital.setup.json --json
+error: PhysLean/Aerospace/Orbital.lean:21:4: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instDivInvMonoid', which is 'noncomputable'
+error: PhysLean/Aerospace/Orbital.lean:26:7: Unknown constant `Real.pi`
+error: PhysLean/Aerospace/Orbital.lean:25:4: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instDivInvMonoid', which is 'noncomputable'
+error: PhysLean/Aerospace/Orbital.lean:29:4: failed to compile definition, consider marking it as 'noncomputable' because it depends on 'Real.instDivInvMonoid', which is 'noncomputable'
+error: Lean exited with code 1
+Γ£û [1985/1987] Building PhysLean.Mechanics.Dynamics (10s)
+trace: .> LEAN_PATH=C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Cli\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\batteries\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\Qq\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\aesop\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\proofwidgets\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\importGraph\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\LeanSearchClient\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\plausible\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\packages\mathlib\.lake\build\lib\lean;C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean c:\Users\krish\.elan\toolchains\leanprover--lean4---v4.28.0\bin\lean.exe C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\PhysLean\Mechanics\Dynamics.lean -o C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Mechanics\Dynamics.olean -i C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\lib\lean\PhysLean\Mechanics\Dynamics.ilean -c C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Mechanics\Dynamics.c --setup C:\Users\krish\Desktop\MiniProjects\PhysLean\PhysLean\.lake\build\ir\PhysLean\Mechanics\Dynamics.setup.json --json
+error: PhysLean/Mechanics/Dynamics.lean:29:88: failed to synthesize instance of type class
+  OfNat Force1D 0
+numerals are polymorphic in Lean, but the numeral `0` cannot be used in a context where the expected type is
+  Force1D
+due to the absence of the instance above
+
+Hint: Type class instance resolution failures can be inspected with the `set_option trace.Meta.synthInstance true` command.
+error: Lean exited with code 1
+Some required targets logged failures:
+- PhysLean.Aerospace.Rocket
+- PhysLean.Aerospace.Orbital
+- PhysLean.Mechanics.Dynamics
+error: build failed
